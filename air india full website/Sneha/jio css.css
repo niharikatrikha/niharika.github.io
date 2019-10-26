@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img .voiceimg {
+align-self: center;
+}
+.footerbg {
+	background: #24316E;
+	color: white;
+}
+a{
+	color: white;
+}
+.boxfooter {
+	text-align: center;
+}
+
+
+/*carousal*/
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+}
+
+.controls-top {
+	background: #EFEFEF;
+}
+
+hr {
+    height: 1px;
+    background-color: #363639; 
+}
+.carddata {
+	text-align: center;
+}
+
+
+.recttext {
+	width: 1500px;
+	fill: #005AAC;
+}

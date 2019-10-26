@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainbox{
+	width: 80%;
+	height: 1000px;
+	background: #04B4C8;
+	position:relative;
+	display:block;
+	margin:auto;
+	
+	
+}
+
+
+/*.mainbox {
+	background:url(59a4c4ee5defe549877f6a88b5f77fe8.jpg);
+	
+	background-repeat: repeat;
+	background-size:cover;
+		
+*/
+
+#image {
+	 
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	
+}
+
+.overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	background: #000000;
+	color: aliceblue;
+	height:1000px;
+	width: 100%;
+	transition: all .6s;
+	
+	
+}
+.mainbox:hover .overlay{
+	opacity:0.8;
+}
+
+
+/*
+p:first-letter {
+	display:block;
+	float:left;
+	font-size: 300%;
+}
+*/
+p { 
+	
+	font-family: 'Open Sans', sans-serif;
+font-size:100px !important;
+	
+}
+
+
+
+img {
+	margin-right: auto;
+    border:#FFFFFF;
+	border-radius: 100px;
+	border-width: thick;
+	border-style: dashed;
+}
+
+
+div {
+	
+}

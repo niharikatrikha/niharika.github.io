@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.row {
+	margin-left: auto;
+		margin-right :auto
+}
+
+div {
+	margin-left: 70px;
+		margin-right :70px
+}
+
+.col-lg-4 {
+	margin-left: 70px;
+	left align-content: 100px;
+}
+
+.col-lg-4 {
+	margin-left: 100px;
+	margin-bottom: 150;
+}

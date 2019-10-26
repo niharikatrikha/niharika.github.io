@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simplest jQuery Dropdown Nav Demo</title>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/heroic-features.css" rel="stylesheet">
+
+	<!-- for icons from font awsome icons-->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	 <link href="../HomepageStyle(1).css" rel="stylesheet" type="text/css">
+
+	
+<style>
+/* main Styles */
+
+*, *:before, *:after { box-sizing: inherit; }
+
+
+
+	.container1{}
+
+h1 { text-align:center; margin-top:150px;}
+
+/* Navigation Styles */
+
+nav { background:#4A4A4A;
+	border-bottom:thick;
+	border-bottom-color: darkgrey}
+
+nav ul {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  padding: 15px 14px;
+  transition: 0.3s linear;
+}
+
+nav ul li:hover {background:#7D7C7C; }
+
+nav ul li ul {
+
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+
+nav ul li ul li {
+  border-top: 1px solid #444;
+  display: block;
+}
+
+nav ul li ul li:first-child { border-top: none; }
+
+nav ul li ul li a {
+  background: #373737;
+  display: block;
+  padding: 10px 14px;
+}
+
+nav ul li ul li a:hover { background: #B2B2B2; }
+
+nav .fa.fa-angle-down { margin-left: 6px; }
+</style>
+</head>
+
+<body>
+<nav>
+  <div class="container">
+    <ul>
+      <li><a href="#">Home</a></li>
+       <li> <a href="#">Manage Your Trip<i class="fa fa-angle-down"></i></a>
+        <ul>
+          <li><a href="#">Book a Flight</a></li>
+          <li><a href="#">My Bookings</a></li>
+          <li><a href="#">Web Check-in</a></li> 
+			<li><a href="#">Book Hotel</a></li>
+			 <li><a href="#">Time Table</a></li>
+			<li><a href="#">Flight Schedule</a></li>
+			<li><a href="#">Redeem Miles</a></li>
+        </ul>
+      </li>
+		<li> <a href="#">Special Offers<i class="fa fa-angle-down"></i></a></li>
+		<li> <a href="#">Travel Information<i class="fa fa-angle-down"></i></a></li>
+		<li> <a href="#">Baggage<i class="fa fa-angle-down"></i></a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script src="//code.jquery.com/jquery.min.js"></script>
+
+<script type ="text/javascript" src ="../navtabdrop.js"></script>
+</body>
+</html>
